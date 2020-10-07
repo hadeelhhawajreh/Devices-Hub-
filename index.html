@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devices Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>
+            My Devices
+        </h1>
+    </nav>
+    <!-- Mobile, Laptop, Tablet -->
+    <form id="form-id">
+        <fieldset>
+            <label for="itemName">Item Name </label> <br>
+            <input type="text" name="itemName" id="itemName"><br>
+            <label for="category">Category </label><br>
+            <select name="categ" id="categ"><br>
+                <option value="Mobile">Mobile</option>
+                <option value="Laptop">Laptop</option>
+                <option value="Tablet">Tablet</option>
+
+            </select><br>
+            <label for="quantitiy">Quantitiy </label><br>
+            <input type="text" name="quantitiy" id="quantitiy"><br>
+            <input id="submit" type="submit" value="Submit"><br>
+        </fieldset>
+    </form>
+    <div id="tableDiv">
+        <table id="table-id">
+
+        </table>
+        <p id="total">
+
+        </p>
+    </div>
+
+   
+    <script src="app.js"></script>
+</body>
+
+</html>

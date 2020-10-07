@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(imag.jpg);
+background-position: top;
+background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+height:70px ;
+background-color: rgb(93, 93, 93);
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    line-height: 44px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -18px;
+
+}
+#form-id fieldset{
+    width: 17%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 7%;
+    border-radius: 10%;
+    background-color: rgba(190, 173, 173, 0.4);
+}
+label{
+    text-align: center;
+    padding-left:60px;
+    padding-top: 60px;
+}
+label ,input,select{
+    margin: 20px;
+    padding-left:60px;
+
+}
+input{
+    padding-left:60px;
+
+
+}
+#submit{
+    width: 200px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+select{
+    width:200px ;
+}
+#tableDiv{
+    margin-left: 450px;
+    margin-top: -300px;
+    width: 1000px;
+    background-color:  rgba(190, 173, 173, 0.4);
+}
+table ,tr,td,th{
+    border: 1px solid black ;
+    border-collapse: collapse;
+    background-color: rgba(248, 247, 247,0.40);
+
+
+}
+th{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
